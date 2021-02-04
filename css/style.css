@@ -32,6 +32,7 @@ header nav{
     position: relative;
 }
  header nav a{
+     margin-top:8px ;
     width: 80px;
 }
 header nav .link{
@@ -181,7 +182,7 @@ main aside .fab:hover{
 
 footer{
     justify-content: space-between;
-    
+    margin-bottom: 12px;
 }
 
 footer .inscription{
