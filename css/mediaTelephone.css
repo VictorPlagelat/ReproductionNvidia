@@ -9,6 +9,9 @@
         margin: 0;
         width: auto;
     }
+  header{
+      
+  }
     header nav{
         width: 100%;
         position: fixed;
@@ -21,6 +24,9 @@
     header nav .link a{
         width: auto;
        font-size: 15px;
+    }
+    header figure{
+    position: relative;
     }
 
 /* ========================================== */
