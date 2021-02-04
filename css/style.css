@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+img{
+    width: 100%;
+    vertical-align: top;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+
+
+/* ========================================== */
+/* ================== header ================= */
+/* =========================================== */
+
+header nav{
+    margin-bottom: 1rem;
+    position: relative;
+}
+ header nav a{
+    width: 80px;
+}
+header nav .link{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    margin: 0 1rem;
+    justify-content: space-around;
+}
+header nav .link a{
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+header figure{
+    height: auto;
+    position: relative;
+}
+header figcaption{
+    width: 100%;
+    background-color: rgba(3, 83, 3, 0.514);
+    position: absolute;
+    padding: 1rem 0;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+header figcaption span{
+    color: white;
+    margin-left: 1rem;
+}
+header figcaption a{
+    margin-right: 1rem;
+    color: white;
+    border: green 1px solid;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: green;
+    text-decoration: none;
+    transition: ease 0.3s;
+}
+header figcaption a:hover{
+    color: green;
+    background-color: white;
+}
+
+/* ========================================== */
+/* ================== main ================= */
+/* =========================================== */
+
+
+
+/* ============== TRIANGLE ================ */
+.triangle-code{
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 100%);
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 60px solid #75B600;
+    border-right : 40px solid transparent;
+    border-left : 40px solid transparent;
+   }
+/* ================== FIN TRIANGLE =============== */
+main{
+    position: relative;
+    margin: 4rem 0;
+    justify-content: space-between;
+    border-bottom: 5px solid #75B600;
+}
+main article{
+    width: 55% ;
+}
+main article .title{
+    align-items: center;
+}
+main article .title figure{
+    width: 40px;
+}
+main article p{
+    font-size: 25px;
+    margin: 0 0 2rem 0;
+}
+main article figure{
+    width: 30px;
+}
+main article h2{
+    margin-left: 1rem;
+    font-size: 35px;
+}
+main aside p, main aside span{
+    display: block;
+    font-size: 25px;
+    margin: 1rem 2rem;
+}
+main aside{
+    width: 40%;
+    background-color: #75B600;
+    color: white;
+}
+main aside h2{
+    text-align: center;
+    font-size: 35px;
+}
+main aside figure{
+    margin: auto;
+    width: 40%;
+}
+main aside .reseau{
+    width: 85%;
+    margin:4rem auto 2rem auto; 
+    justify-content: space-around;
+}
+main aside .fab{
+    color: white;
+    
+    font-size: 60px;
+}
+
+
+/* ============================================= */
+/* ============ FOOTER ========================= */
+/* ============================================= */
+
+footer{
+    justify-content: space-between;
+    
+}
+
+footer .inscription{
+    width: 30%;
+}
+footer input{
+    width: 60%;
+    font-size: 20px;
+    margin-bottom: 6px;
+    padding: 9px;
+}
+footer input:last-child{
+    background-color: #75B600;
+    padding: 4px;
+    color: white;
+    width: 30%;
+}
+footer figure{
+    width: 100%;
+}
+footer .galery{
+    
+    width: 35%;
+}
+footer .galery img{
+    width: 25%;
+    margin-right: 10px;
+}
+footer .partner{
+width: 25%;
+
+}
+footer .partner img{
+    width: 30%;
+    margin: 0 5px;
+}
+
+/*================================================
+================================================*/
+
+

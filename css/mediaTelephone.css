@@ -1,0 +1,57 @@
+/* ==================== TELEPHONE =============== */
+@media screen and (max-width: 768px) {
+
+/* ========================================== */
+/* ================== header ================= */
+/* =========================================== */
+
+    .container{
+        margin: 0;
+        width: auto;
+    }
+    header nav{
+        width: 100%;
+        position: fixed;
+        z-index: 5;
+        background-color: white;
+        border-bottom: 1px solid #75B600;
+        padding-bottom: 10px;
+        transition: 0.6s;
+    }
+    header nav .link a{
+        width: auto;
+       font-size: 15px;
+    }
+
+/* ========================================== */
+/* ================== Main ================= */
+/* =========================================== */
+    main{
+        flex-direction: column;
+        padding-bottom: 12px;
+    }
+    main article{
+        width: 95%;
+        margin: auto;
+    }
+    
+    main article h2{
+        width: 80%;
+    }
+    main aside{
+        width: 95%;
+        margin: auto;
+    }
+
+/* ========================================== */
+/* ================== footer ================= */
+/* =========================================== */
+
+footer .inscription, footer .galery, footer .partner{
+    margin: auto;
+    width:80% ;
+}
+
+
+
+}
