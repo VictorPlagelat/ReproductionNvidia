@@ -1,32 +1,87 @@
 /* ==================== TELEPHONE =============== */
 @media screen and (max-width: 768px) {
 
+   .container{
+        margin: 0;
+        width: auto;
+    }
+
 /* ========================================== */
 /* ================== header ================= */
 /* =========================================== */
 
-    .container{
-        margin: 0;
-        width: auto;
-    }
-  header{
-      
-  }
     header nav{
         width: 100%;
-        position: fixed;
+        padding: 0;
+        margin: 0;
         z-index: 5;
         background-color: white;
         border-bottom: 1px solid #75B600;
-        padding-bottom: 10px;
+        position: fixed;
         transition: 0.6s;
+        padding-bottom: 5px;
+    }
+    header nav img{
+        margin-left: 1rem;
     }
     header nav .link a{
         width: auto;
        font-size: 15px;
     }
     header figure{
-    position: relative;
+        padding-top: 4rem;
+    position: static;
+    
+    }
+    header figcaption{
+        position: static;
+    }
+    header div .link{
+        opacity: 0;
+    }
+
+     /* animation burger en croix avec classe toggle*/
+    header nav .cross span{
+        transition: 0.5s;
+        position: relative;
+    }
+    header nav .cross span:nth-child(1){
+        transform: rotate(225deg);
+        top: 25%;
+    }
+    header nav .cross span:nth-child(2){
+        transform: translate(100%) ;
+        opacity: 0;
+    }
+    header nav .cross span:nth-child(3){
+        transform: rotate(-225deg);
+        bottom: 25%;
+    }
+    header nav .burger{
+      display: block;
+    }
+    
+     /* class toggle pour nav burger */
+    header nav .visible{
+        margin: 0;
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.65);
+        opacity: 1;
+    }
+    header nav .visible a{
+        width: 50%;
+        font-size: 30px;
+        color: white;
+        background-color: #75B600;
     }
 
 /* ========================================== */
@@ -45,7 +100,7 @@
         width: 80%;
     }
     main aside{
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
 
@@ -53,10 +108,10 @@
 /* ================== footer ================= */
 /* =========================================== */
 
-footer .inscription, footer .galery, footer .partner{
-    margin: auto;
-    width:80% ;
-}
+    footer .inscription, footer .galery, footer .partner{
+        margin: auto;
+        width:80% ;
+    }
 
 
 
