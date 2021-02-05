@@ -6,39 +6,38 @@
 /* ================== header ================= */
 /* =========================================== */
 
-header nav .link{
-    width: 90%;
-    position: relative;
-    align-items: center;
-}
-header nav .link a{
-    width: 25%;
-}
+    header nav .link{
+        width: 90%;
+        align-items: center;
+    }
+    header nav .link a{
+        width: 25%;
+    }
 /* ========================================== */
 /* ================== main ================= */
 /* =========================================== */
 
-main aside .reseau{
-    flex-wrap: wrap;
-}
-main aside .reseau .fab{
-    font-size: 100px;
-    padding: 1rem;
-}
+    main aside .reseau{
+        flex-wrap: wrap;
+    }
+    main aside .reseau .fab{
+        font-size: 100px;
+        padding: 1rem;
+    }
 
 /* ========================================== */
 /* ================== footer ================= */
 /* =========================================== */
-footer{
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-footer .inscription, footer .galery{
-    width: 40%;
-}
-footer .partner{
-    margin: auto;
-    width:50% ;
-}
 
+    footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+    footer .inscription, footer .galery{
+        width: 40%;
+    }
+    footer .partner{
+        margin: auto;
+        width:50% ;
+    }
 }
