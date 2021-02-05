@@ -60,7 +60,7 @@
     header nav .burger{
       display: block;
     }
-    
+
      /* class toggle pour nav burger */
     header nav .visible{
         margin: 0;
@@ -112,7 +112,4 @@
         margin: auto;
         width:80% ;
     }
-
-
-
 }
